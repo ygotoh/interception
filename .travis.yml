@@ -1,12 +1,16 @@
 language: ruby
 rvm:
-  - 2.1.1
-  - 2.1.0
+  - ruby-head
+  - 2.2-head
+  - 2.2
+  - 2.1
   - 2.0.0
   - 1.9.3
   - 1.9.2
+  - 1.8.7
   - jruby-18mode
   - jruby-19mode
+  - jruby-head
   - rbx
-  - 1.8.7
+  - rbx-head
   - ree
