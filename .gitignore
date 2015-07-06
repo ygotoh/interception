@@ -7,3 +7,4 @@ ext/Makefile
 *.lock
 doc/
 .yardoc
+.ruby-version
