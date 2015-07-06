@@ -123,7 +123,7 @@ describe Interception do
   end
 
   it "should be able to handle division by 0 errors" do
-    pending "RBX doesn't yet support this",
+    skip "RBX doesn't yet support this",
       :if => defined?(RUBY_ENGINE) && RUBY_ENGINE == 'rbx' do
 
       shoulder = :bucket

@@ -11,6 +11,6 @@ Gem::Specification.new do |s|
   s.extensions = "ext/extconf.rb"
   s.require_path = "lib"
 
-  s.add_development_dependency 'rake'
-  s.add_development_dependency 'rspec'
+  s.add_development_dependency 'rake', '~> 0'
+  s.add_development_dependency 'rspec', '~> 2'
 end
